@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Proxima Nova Regular';
+    font-size: 17px;
+     outline: 0 !important;
+}
+
+body {
+    background-color: #f5f8fa !important;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/Proxima Nova Regular.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/Proxima Nova Semibold.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/Proxima Nova Bold.otf') format('OpenType');
+}
+
+.login-outter {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-wrapper {
+    width: 390px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 90px;
+    padding-top: 60px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form-title {
+    font-family: 'Proxima Nova Semibold';
+    font-size: 36px;
+    color: #303030;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.login-input-wrap {
+    width: 100%;
+    position: relative;
+    background-color: #f8f9fc;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+
+.login-input {
+    font-family: 'Proxima Nova Semibold';
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 62px;
+    padding: 0 20px 0 38px;
+    border-radius: 6px;
+}
+
+.login-button-wrap {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+}
+
+.login-form-btn {
+    font-family: 'Proxima Nova Semibold';
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 62px;
+    background-color: #2bdbfd;
+    border-radius: 6px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login-form-btn:hover {
+    box-shadow: 0px 11px 32px 0px rgba(43, 219, 253, 0.38);
+}
+
+input,
+button {
+    border: none;
+}
+
+.navbar-custom {
+    border: none;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    padding: 12px 15px;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding: 22px 30px;
+    }
+}
+
+.navbar-nav>li>a i {
+    margin-right: 10px;
+    font-size: 17px;
+    line-height: 1;
+}
+
+.navbar-nav>li>a {
+    font-size: 16px;
+}
+
+.navbar-nav {
+    font-family: 'Proxima Nova Regular';
+}
+
+.card-body {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 30px 0px rgba(229, 238, 242, 0.2);
+}
+
+.dashboard-row {
+    margin-top: 20px;
+}
+
+.card-inner {
+    padding: 20px;
+}
+
+.card-profile-inner {
+    padding: 30px 20px;
+}
+
+.card-text {
+    padding-left: 8px;
+}
+
+.card-text h3 {
+    font-size: 32px;
+    font-family: 'Proxima Nova Semibold';
+    color: #666565;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.card-text p {
+    font-size: 17px;
+    font-family: 'Proxima Nova Regular';
+    color: #bebebe;
+    margin: 0;
+    padding: 0;
+}
+
+.card-profile {
+    text-align: center;
+}
+
+.card-text .card-icon img {
+    margin-top: 0;
+}
+
+.card-u-name h3 {
+    font-size: 17px;
+    color: #666565;
+    font-family: 'Proxima Nova Semibold';
+    margin-top: 30px;
+}
+
+.card-u-stats {
+    width: 80px;
+    height: auto;
+    border-radius: 18px;
+    background-color: rgba(44, 220, 253, 0.07);
+    padding: 8px;
+    margin-top: 35px;
+}
+
+.card-u-stats h3 {
+    font-size: 17px;
+    font-family: 'Proxima Nova Semibold';
+    color: #2cdcfd;
+}
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    transition: 0.3s ease;
+}
+
+.custom-btn {
+    width: 100%;
+    height: 52px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Proxima Nova Semibold';
+    margin-bottom: 12px;
+}
+
+.b-primary {
+    background-color: #2bdbfd;
+}
+
+.b-outlined {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #e9ebed;
+    border-style: solid;
+    color: #666565 !important;
+}
+
+.b-outlined:hover {
+    background-color: #e9ebed;
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.b-primary:hover {
+    box-shadow: 0px 11px 32px 0px rgba(43, 219, 253, 0.21);
+    background-color: #2bdbfd
+}
+
+.table-wrap {
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.table-inner {
+    padding: 10px 20px;
+}
+
+.white-box {;
+   padding: 30px;
+}
+
+.table {
+        border-spacing: 0;
+        border-collapse: collapse;
+}
+
+.box-title.custom {
+    margin: 10px 0 25px 0;
+    color: #666565;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.table th {
+    color: #bebebe;
+}
+
+.table td {
+    color: #666565;
+}
+
+.table>thead>tr>th {
+    border-bottom: none;
+    padding: 10px;
+    font-family: 'Proxima Nova Regular' !important;
+}
+
+.custom.form-control {
+    border-width: 1px;
+    border-color: #e9ebed;
+    border-style: solid;
+    color: #666565 !important;
+    font-family: 'Proxima Nova Regular';
+}
